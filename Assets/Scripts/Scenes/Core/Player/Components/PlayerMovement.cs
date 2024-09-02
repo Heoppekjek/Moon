@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace Moon.Core.Player
 {
+    [System.Serializable]
     [Il2CppSetOption(Option.NullChecks, false)]
     [Il2CppSetOption(Option.ArrayBoundsChecks, false)]
     [Il2CppSetOption(Option.DivideByZeroChecks, false)]
-    [System.Serializable]
     public struct PlayerMovement : IComponent
     {
         public float Speed;

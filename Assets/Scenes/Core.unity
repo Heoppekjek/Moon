@@ -720,6 +720,8 @@ MonoBehaviour:
   updateSystems:
   - enabled: 1
     system: {fileID: 11400000, guid: f2810a0d9a3ed8746a94060d6a76c2ba, type: 2}
+  - enabled: 1
+    system: {fileID: 11400000, guid: dde7c004811ce9548b340d234bf53ae8, type: 2}
   fixedUpdateSystems:
   - enabled: 1
     system: {fileID: 11400000, guid: 1eae7aa0ffe683c469e808071c2fabb5, type: 2}
@@ -1129,10 +1131,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2305245973076288557, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxResourcesCount
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623038566040505455, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.4835033
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
@@ -1142,7 +1154,7 @@ PrefabInstance:
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.3233414
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
@@ -1199,6 +1211,21 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.Speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxInResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxOutResourcesCount
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7963559343187178029, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1222,7 +1249,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 7629953949198856232, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 7963559343187178029, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4854011053420159575, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
@@ -1254,10 +1289,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2305245973076288557, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxResourcesCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623038566040505455, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.7735023
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
@@ -1267,7 +1312,7 @@ PrefabInstance:
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.432628
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
@@ -1324,6 +1369,21 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.Speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxInResourcesCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxOutResourcesCount
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7963559343187178029, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1347,7 +1407,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 7629953949198856232, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 7963559343187178029, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4854011053420159575, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
@@ -1580,6 +1648,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: BaseOne
       objectReference: {fileID: 0}
+    - target: {fileID: 2305245973076288557, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623038566040505455, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.ResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623038566040505455, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2883615160983421277, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1630,6 +1713,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.Speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.InResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxInResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.MaxOutResourcesCount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369093066812732015, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: serializedData.IsInResourcesInfinity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529183467117050393, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: m_text
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529183467117050393, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 8.95
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1638,7 +1756,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 7629953949198856232, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 7963559343187178029, guid: becf8ab5966aab546a9ff685315623df,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4854011053420159575, guid: becf8ab5966aab546a9ff685315623df,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
