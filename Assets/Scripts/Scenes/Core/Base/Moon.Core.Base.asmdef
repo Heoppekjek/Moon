@@ -4,7 +4,9 @@
     "references": [
         "Scellecs.Morpeh",
         "Unity.TextMeshPro",
-        "UniTask"
+        "UniTask",
+        "Moon.Core.Enums",
+        "Moon.Core.Player"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
